@@ -135,12 +135,14 @@ Function simulates data from a normal and computes sample mean and sd.
 (We wrote this in a code chunk last time; now it's being sourced.)
 
 ```{r}
+# roxygen package good at documenting R script
 source("source/sim_mean_sd.R")
 ```
 
 Let's run this function.
 
 ```{r}
+# you get different estimates every time
 sim_mean_sd(mu = 48, 50)
 ```
 
